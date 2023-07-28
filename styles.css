@@ -1,0 +1,147 @@
+/* Estilos para el encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+
+/* Estilo de marco redondo para el logotipo */
+#logo {
+   width: 300px; /* Ajusta el tamaño según tus necesidades */
+  height: 300px; /* Ajusta el tamaño según tus necesidades */
+  
+   border-radius: 50%; /* Establece el radio para lograr un borde redondo */
+  border: 3px solid #fff; /* Agrega un borde blanco alrededor del logotipo */
+}
+
+
+h1{
+  font-family: 'Metal Mania', cursive;
+  font-size: 3rem;
+  background: linear-gradient(45deg, #ff1493, #ff8c00, #ffd900, #7cfc00, #00bfff, #8a2be2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+body {
+            
+
+
+
+            font-family: 'Poppins', sans-serif;
+          
+          margin: 0;
+          padding: 0;
+          background-color: #f2f2f2;
+        }
+
+
+
+
+/* Estilos para la barra de navegación */
+nav {
+  background-color: #444;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Estilos para las secciones */
+section {
+  padding: 50px;
+}
+
+/* Estilos para el botón de cita */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.photo {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0.7;
+    transition: all 0.3s;
+}
+
+.photo:hover img {
+    opacity: 1;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.instagram-link {
+    display: inline-block;
+}
+
+
+.icon {
+    width: 50px; /* Ajusta el ancho del icono a 50 píxeles */
+    height: 50px; /* Ajusta la altura del icono a 50 píxeles */
+}
+
+.contenedor {
+    text-align: center;
+}
